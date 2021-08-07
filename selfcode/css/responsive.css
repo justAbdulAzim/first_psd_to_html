@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1024px){
+	.row{
+		margin: 0 2rem;
+	}
+
+	.main-nav{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+}

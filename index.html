@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>cuda practice</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+	<!-- GOOGLE fonts-->
+
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+
+	<!--- Font Awosme--->
+	<script src="https://kit.fontawesome.com/b0f97db69d.js" crossorigin="anonymous"></script>
+
+	<!--- Vendors-->
+	<link rel="stylesheet" type="text/css" href="vends/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="vends/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="vends/css/animated-circle.css">
+	
+
+	<!--- Our css-->
+
+	<link rel="stylesheet" type="text/css" href="selfcode/css/style.css">
+	<link rel="stylesheet" type="text/css" href="selfcode/css/responsive.css">
+</head>
+<body>
+
+	<!-- start header section --->
+
+	<header id="home">
+		<nav>
+			<div class="row">
+				<a href="#home"><img class="logo" src="images/logo.png"></a>
+				<ul class="main-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#servicesid">services</a></li>
+					<li><a href="#teamid">team</a></li>
+					<li><a href="#skillid">skill</a></li>
+					<li><a href="#portid">Portfolio</a></li>
+					<li><a href="#tm">testimonial</a></li>
+					<li><a href="#contactid">contact</a></li>
+				</ul>
+				<div class="mobile">
+					<span onclick="openNav()">&#9776;</span>
+
+					<div class="overlay" id="myNav">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						<div class="ovarlay-content">
+						<a onclick="closeNav()" href="#home">Home</a>
+						<a onclick="closeNav()" href="#servicesid">services</a>
+						<a onclick="closeNav()" href="#teamid">team</a>
+						<a onclick="closeNav()" href="#skillid">skill</a>
+						<a onclick="closeNav()" href="#portid">Portfolio</a>
+						<a onclick="closeNav()" href="#tm">testimonial</a>
+						<a onclick="closeNav()" href="#contactid">contact</a>
+						
+					</div>
+					</div>
+					
+				</div>
+
+			</div>
+		</nav>
+		<div class="row">
+			<div class="header-text">
+				<h1>Hi,here we kids design awsome website and mobile apps</h1>
+				<a href="#contactid" class="btn work-us">work with us</a>
+			</div>
+		</div>
+	</header>
+	<!-- end header section --->
+
+	<!-- start services section --->
+	<section class="services-section clr-fix js--srv" id="servicesid">
+		<div class="row">
+			<h3>services we provide</h3>
+			<p class="little-des">The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+			
+		</div>
+		<div class="row">
+			<div class="col span_1_of_4 box">
+				<img src="images/flag.png"	class="srv-icn">
+				<h2>Brinding</h2>
+				<p>The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.</p>
+			</div>
+			
+			<div class="col span_1_of_4 box">
+				<img src="images/crayon.png" class="srv-icn">
+				<h2>design</h2>
+				<p>The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.</p>
+			</div>
+
+			<div class="col span_1_of_4 box">
+				<img src="images/gears.png" class="srv-icn">
+				<h2>devolopment</h2>
+				<p>The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.</p>
+			</div>
+
+			<div class="col span_1_of_4 box">
+				<img src="images/rocket.png" class="srv-icn">
+				<h2>rocket science</h2>
+				<p>The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- end services section --->
+
+
+
+	<!-- start team section --->
+
+	<section class="clr-fix team-section" id="teamid">
+		<div class="row">
+			<h3>meet with our beautiful team</h3>
+			<p class="little-des">The quick brown fox jumps over the lazy dog.</p>
+		</div>
+
+		<div class="row">
+			<div class="col span_1_of_4 box">
+				<img src="images/3.jpg" class="tm-icn">
+				<h2> anna haterson</h2>
+				<span class="role"> ceo/boss</span>
+				<p> dummy text :The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+
+				<div class="social">
+					<ul>
+						<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="#"></a><i class="far fa-envelope"></i></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col span_1_of_4 box">
+				<img src="images/2.jpg" class="tm-icn">
+				<h2> second name </h2>
+				<span class="role"> ceo/boss</span>
+				<p> dummy text: The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+
+				<div class="social">
+					<ul>
+						<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="#"></a><i class="far fa-envelope"></i></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col span_1_of_4 box">
+				<img src="images/3.jpg" class="tm-icn">
+				<h2> third name</h2>
+				<span class="role"> ceo/boss</span>
+				<p> dummy text :The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+
+				<div class="social">
+					<ul>
+						<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="#"></a><i class="far fa-envelope"></i></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col span_1_of_4 box">
+				<img src="images/4.jpg" class="tm-icn">
+				<h2> fourth name</h2>
+				<span class="role"> ceo/boss</span>
+				<p> The quick brown fox jumps over the lazy dog.The quick brown fox jumps over the lazy dog.</p>
+
+				<div class="social">
+					<ul>
+						<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- end team section --->
+
+
+	<!-- start skill section --->
+
+	<section class="skill-section clr-fix" id="skillid">
+		<div class="row">
+			<h3>we got skills!</h3>
+			<p class="little-des"> the qick brown fox jumlps over the lazy dog</p>
+		</div>
+		
+		<div class="row">
+			<div class="col span_1_of_4 box ">
+			<svg class="radial-progress web-dsn" data-percentage="90" viewBox="0 0 80 80">
+  			<circle class="incomplete" cx="40" cy="40" r="35"></circle>
+ 			 <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+  			<text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+			</svg>
+			<h2>web design</h2>
+
+			</div>
+
+			<div class="col span_1_of_4 box ">
+			<svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
+  			<circle class="incomplete" cx="40" cy="40" r="35"></circle>
+ 			 <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+  			<text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+			</svg>
+			<h2>HTML / CSS</h2>
+
+			</div>
+
+			<div class="col span_1_of_4 box">
+			<svg class="radial-progress graphic-dsn" data-percentage="70" viewBox="0 0 80 80">
+  			<circle class="incomplete" cx="40" cy="40" r="35"></circle>
+ 			 <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+  			<text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+			</svg>
+			<h2>graphic design</h2>
+
+			</div>
+
+			<div class="col span_1_of_4 box ">
+			<svg class="radial-progress ui" data-percentage="85" viewBox="0 0 80 80">
+  			<circle class="incomplete" cx="40" cy="40" r="35"></circle>
+ 			 <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+  			<text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+			</svg>
+			<h2>UI / UX</h2>
+
+			</div>
+			
+		</div>
+		
+
+	</section>
+	<!-- end skill section --->
+
+
+
+	<!-- start portfolio section --->
+
+
+
+	<section class="clr-fix port-section" id="portid">
+		<div class="row">
+			<h3>our prtfolio</h3>
+			<p class="little-des">jlfs isf sdia acnal eojrn soanfow now fowenifcnei oiefj woeijfwef woecnowlzei owie owidjsdfi ewijdije wwofj </p>
+		</div>
+
+		<div class="row">
+			<div class="button-section">
+				<button type="button" data-filter = "all">all</button>
+				<button type="button" data-filter = ".web">web</button>
+				<button type="button" data-filter = ".apps">apps</button>
+				<button type="button" data-filter = ".icons">icons</button>
+			</div>
+			
+		</div>
+
+		<div class="row contt">
+			<div class="col span_1_of_2 box mix apps">
+				<img src="images/portfolio1.png" class="port-img">
+				<h4>isometric perspective mock-up</h4>
+				
+			</div>
+
+			<div class="col span_1_of_2 box mix apps web">
+				<img src="images/portfolio2.png" class="port-img">
+				<h4>time zone app ui</h4>
+				
+			</div>
+
+			<div class="col span_1_of_2 box mix icons">
+				<img src="images/portfolio3.png" class="port-img">
+				<h4>viro mwdia players ui</h4>
+				
+			</div>
+
+			<div class="col span_1_of_2 box mix icons apps web">
+				<img src="images/portfolio4.png" class="port-img">
+				<h4>blog/magazine flat ui</h4>
+				
+			</div>
+
+			
+			
+		</div>
+
+		<!--- HIDDEN LOAD MORE BUTTTON 
+		<div class="row">
+			<a href="#" class="btn load-btn">load more projects</a>
+		</div>
+
+		---->
+		
+	</section>
+	<!-- end portfolio section --->
+
+
+	<!-- start testimonial section --->
+		<section class="clr-fix testimonial" id="tm">
+			<div class="row">
+				<h3> what people say about us!</h3>
+				<p class="little-des">Our clients love us!</p>
+				
+			</div>
+
+			<div class="row">
+				<div class="col span_1_of_2 box">
+					<div class="client-photo">
+						<img src="images/3.jpg">	
+					</div>
+
+					<div class="client-review">
+						<p>
+							fdjf jdlfjsdl ljsdljsdl sdlfjsdldk ifj coia fzoiw coidcoijlda oaidajmoisd oisjca coaicasc ocjasc aiocj im
+						</p>
+						<h2>chanel iman</h2>
+						<span class="role">CEO of piterest</span>						
+					</div>
+				</div>
+
+				<div class="col span_1_of_2 box">
+					<div class="client-photo">
+						<img src="images/4.jpg">	
+					</div>
+
+					<div class="client-review">
+						<p>
+							fdjf jdlfjsdl ljsdljsdl sdlfjsdldk ifj coia fzoiw coidcoijlda oaidajmoisd oisjca coaicasc ocjasc aiocj im
+						</p>
+						<h2>second iman</h2>
+						<span class="role">CEO of piterest</span>						
+					</div>
+				</div>
+
+				<div class="col span_1_of_2 box">
+					<div class="client-photo">
+						<img src="images/2.jpg">	
+					</div>
+
+					<div class="client-review">
+						<p>
+							fdjf jdlfjsdl ljsdljsdl sdlfjsdldk ifj coia fzoiw coidcoijlda oaidajmoisd oisjca coaicasc ocjasc aiocj im
+						</p>
+						<h2>third iman</h2>
+						<span class="role">CEO of piterest</span>
+					</div>
+					
+				</div>
+
+				<div class="col span_1_of_2 box">
+					<div class="client-photo">
+						<img src="images/3.jpg">	
+					</div>
+
+					<div class="client-review">
+						<p>
+							fdjf jdlfjsdl ljsdljsdl sdlfjsdldk ifj coia fzoiw coidcoijlda oaidajmoisd oisjca coaicasc ocjasc aiocj im
+						</p>
+						<h2>fourth iman</h2>
+						<span class="role">CEO of piterest</span>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+	<!-- end testimonial section --->
+
+
+	<!-- start contact section --->
+
+	<section class="clr-fix contact" id="contactid">
+		<div class="row">
+			<h3 >get in touch</h3>
+			<p class="little-des">
+				fulbarigate,khulna,Bangladesh-9203
+			</p>
+		</div>
+
+		<div class="row">
+			<form action="#" method="post">
+				<div class="row">
+					<div class="col span_1_of_2">
+						<input type="text" name="name" placeholder="Your Name *" required>	
+					</div>
+
+					<div class="col span_1_of_2">
+						<input type="email" name="email" placeholder="Your E-mail">
+					</div>
+					
+				</div>
+				<div class="row">
+					<textarea name="msg"  cols="30" rows="10" placeholder="Your messege *" required></textarea>
+					
+				</div>
+				<div class="row">
+					<input type="submit" value="send messege" class="btn btn-submit">
+				</div>
+				
+			</form>
+		</div>
+		
+	</section>
+	<!-- end contact section --->
+
+
+	<!-- start footer section --->
+		<footer>
+			<div class="row">
+				<ul>
+					<li><a href="#">facebook</a></li>
+					<li><a href="#">instagram</a></li>
+					<li><a href="#">youtube</a></li>
+				</ul>	
+			</div>
+		</footer>
+
+	<!-- end footer section --->
+
+
+
+
+
+<!-- SOME downloaded JS SCRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="vends/js/html5shiv.min.js" ></script>
+<script src="vends/js/respond.min.js"></script>
+<script src="vends/js/selectivizr-min.js"></script>
+<script src="vends/js/jquery.waypoints.min.js"></script>
+<script src="vends/js/animated-circle.js"></script>
+<script src="vends/js/mixitup.min.js"></script>
+<script src="selfcode/js/main.js"></script>
+</body>
+</html>
